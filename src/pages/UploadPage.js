@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import {useNavigate} from "react-router-dom";
 
 const UploadPage = () => {
@@ -10,6 +10,13 @@ const UploadPage = () => {
     const secretKey = localStorage.getItem("secretKey");
     const username = localStorage.getItem("username");
     const navigate = useNavigate();
+    console.log(secretKey)
+    useEffect(() => {
+        if(secretKey === null) {
+            navigate("/login");
+        }
+    }, [navigate, secretKey]);
+
 
     function create() {
         const title = titleRef.current.value;

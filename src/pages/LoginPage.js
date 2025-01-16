@@ -7,7 +7,7 @@ const LoginPage = () => {
     const [error, setError] = useState("");
     const [success, setSuccess] = useState(false);
 
-const navigate= useNavigate();
+    const navigate = useNavigate();
 
     function login() {
         setError("");
