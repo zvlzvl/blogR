@@ -5,7 +5,7 @@ import {Link, useNavigate} from "react-router-dom";
 const Toolbar = () => {
     const [username, setUsername] = useState("");
     const [secretKey, setSecretKey] = useState("");
-const navigate= useNavigate();
+    const navigate= useNavigate();
     function logout() {
         localStorage.clear();
         setUsername("");

@@ -31,7 +31,9 @@ const navigate= useNavigate();
                     localStorage.setItem("secretKey", data.secretKey);
                     localStorage.setItem("username", nameRef.current.value);
                     setSuccess(true);
+                    window.location.reload();
                     navigate(`/user/${nameRef.current.value}`);
+
                 } else {
                     setError(data.message);
                     nameRef.current.value = "";
