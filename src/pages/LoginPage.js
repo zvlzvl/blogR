@@ -31,8 +31,8 @@ const LoginPage = () => {
                     localStorage.setItem("secretKey", data.secretKey);
                     localStorage.setItem("username", nameRef.current.value);
                     setSuccess(true);
-                    window.location.reload();
                     navigate(`/user/${nameRef.current.value}`);
+                    window.location.reload();
 
                 } else {
                     setError(data.message);

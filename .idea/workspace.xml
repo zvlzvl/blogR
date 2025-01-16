@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="380b57a6-ec73-411a-bf20-5f979d6e22da" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/UploadPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UploadPage.js" afterDir="false" />
-    </list>
+    <list default="true" id="380b57a6-ec73-411a-bf20-5f979d6e22da" name="Changes" comment="upload redirect" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,12 +89,25 @@
       <workItem from="1736749540121" duration="25169000" />
       <workItem from="1736921110368" duration="19933000" />
       <workItem from="1737020978998" duration="239000" />
-      <workItem from="1737021419218" duration="892000" />
+      <workItem from="1737021419218" duration="1015000" />
     </task>
+    <task id="LOCAL-00001" summary="upload redirect">
+      <option name="closed" value="true" />
+      <created>1737022416710</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737022416710</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upload redirect" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload redirect" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

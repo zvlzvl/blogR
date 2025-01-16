@@ -40,7 +40,7 @@ const Toolbar = () => {
                         <nav className="nav-links">
                             <Link to="/upload">Add post</Link>
                             <Link to={`/user/${username}`}>My blogs</Link>
-                            <Link to="/logout" onClick={logout}>Logout</Link>
+                            <Link to="/" onClick={logout}>Logout</Link>
                         </nav>
                     }
 
